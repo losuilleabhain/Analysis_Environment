@@ -1,0 +1,5 @@
+GROUP_HOME="~/Documents/"
+Renv <- function(x){
+  switch(x,
+         RPROFILE=source(paste0(GROUP_HOME,'RPROFILE/.RPROFILE')))
+}

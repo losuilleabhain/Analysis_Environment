@@ -1,0 +1,3 @@
+.libPaths(c("../R_LIBS/",.libPaths()))
+library(ff); library(ffbase)
+
